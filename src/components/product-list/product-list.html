@@ -1,0 +1,6 @@
+<ion-list>
+  <button ion-item *ngFor="let product of products" (click)="action.emit(product)">
+     ${{product.price}} - {{product.name}} 
+  </button>  
+
+</ion-list>

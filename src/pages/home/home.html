@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Product List
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <add-form (action)="add($event)"></add-form>
+  <product-list [products]="products | async" (action)="remove($event)"></product-list>
+</ion-content>

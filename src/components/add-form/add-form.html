@@ -1,0 +1,22 @@
+<!--
+  Generated template for the AddForm component.
+
+  See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
+  for more info on Angular 2 Components.
+-->
+
+<ion-list>
+
+  <ion-item>
+    <ion-label fixed>Name</ion-label>
+    <ion-input type="text" [(ngModel)]="newProduct.name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Price</ion-label>
+    <ion-input type="number" [(ngModel)]="newProduct.price"></ion-input>
+  </ion-item>
+  <ion-item>
+    <button ion-button full (click)="add()">Add</button>
+  </ion-item>
+</ion-list>
