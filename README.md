@@ -23,3 +23,6 @@ export const firebaseConfig = {
 ```bash
 ionic serve
 ```
+
+Inspired on [PouchDB+Ionic2](http://gonehybrid.com/a-beginners-guide-to-using-ngrx-in-an-ionic-2-app-part-2/ "A Beginner's Guide To Using ngrx In An Ionic 2")
+ 
