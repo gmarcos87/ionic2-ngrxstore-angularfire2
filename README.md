@@ -19,6 +19,9 @@ export const firebaseConfig = {
 };
 ```
 
+### Debug
+Download the [Redux Devtools Extension](http://zalmoxisus.github.io/redux-devtools-extension/) and happy state debug! - See more in [@ngrx/store-devtools](https://github.com/ngrx/store-devtools)
+
 ### Use
 ```bash
 ionic serve
